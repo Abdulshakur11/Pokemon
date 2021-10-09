@@ -77,3 +77,8 @@ body {
   margin-right: auto;
   justify-content: center;
 }
+
+.form-control {
+  margin-left: 100px;
+  margin-top: 20px;
+}

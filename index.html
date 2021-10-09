@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,35 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/mai.css">
 </head>
+
 <body>
   <header class="site__header header">
     <div class="container">
       <img class="header__pokemon-img" src="./images/pokemon.png" alt="Pokemon logo" width="300" height="100">
+      <form class="form" action="#">
+        <input class="form-control w-25 search-input-js" type="search">
+      </form>
     </div>
   </header>
   <main>
     <section>
       <div class="container">
         <ul class="js-cards-wrapper">
-          
         </ul>
       </div>
     </section>
   </main>
+  <template id="pokemon-card-temlate">
+    <li class="pokemon-item">
+      <img class="item-img" src="" alt="">
+      <p class="item-title"></p>
+      <p class="item-type"></p>
+    </li>
+  </template>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/utils.js"></script>
   <script src="./js/pokemons.js"></script>
   <script src="./js/main.js"></script>
 </body>
+
 </html>
